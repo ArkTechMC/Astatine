@@ -3,15 +3,14 @@
 	"id": "astatine",
 	"version": "${version}",
 	"name": "Astatine",
-	"description": "Fix crash when trying to make data fix with c2me.",
+	"description": "Fix crash in c2me when data fixer failure",
 	"authors": [
 		"IAFEnvoy"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/ArkTechMC/Astatine"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/astatine/icon.png",
 	"provides": [
 		"c2me-threading-chunkio"
