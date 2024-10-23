@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "astatine",
+	"version": "${version}",
+	"name": "Astatine",
+	"description": "Fix crash when trying to make data fix with c2me.",
+	"authors": [
+		"IAFEnvoy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/astatine/icon.png",
+	"provides": [
+		"c2me-threading-chunkio"
+	],
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.iafenvoy.astatine.Astatine"
+		]
+	},
+	"mixins": [
+		"c2me-threading-chunkio.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
